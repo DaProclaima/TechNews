@@ -1,0 +1,9 @@
+Avant de réaliser un site, il faut savoir quel sera son contenu. Si c'est un site d'actualité, on aura des articles, des utilisateurs, des newsletters.
+Quand on commence un projet, on doit lister toutes les infos dont on a besoin,on appelle ça un dictionnaire de données. Une fois qu'on a ce dernier, il faut savoir les interactions qu'il y a aura entres les pièces. On fait donc un Modèle Conceptuel de Données MCD. On y modélise les interactions: Quelle interaction un article a t il avec un utilisateur; Quelle interaction un utilisateur a avec un article. On parle d'entités et de relations. Entre elles il y a des cardinalités.
+
+Cela vient juste avant la concepetion de la BDD.
+Cette méthodologie est une merise, différente de la méthodologie UML plutot destinée à la POO. Là comme il y a des schémas, on a besoin de visualiser les interactions entre les classes.
+
+Vient ensuite le MDL, le modèle logique. Son but: convertir les entités et relations en tables et clés étrangères. Le logiciel SAP ( 15k€) permet de faire ça.
+
+

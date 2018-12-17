@@ -1,0 +1,37 @@
+﻿C:\composer
+λ cd C:\xampp\htdocs\Front-training\WF3\Formation\OWN_WORK\26SYMFONY
+
+C:\xampp\htdocs\Front-training\WF3\Formation\OWN_WORK\26SYMFONY (master -> origin)
+λ cd var-dumper
+
+C:\xampp\htdocs\Front-training\WF3\Formation\OWN_WORK\26SYMFONY\var-dumper (master -> origin)
+λ composer require symfony/var-dumper
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+
+Warning: Module 'openssl' already loaded in Unknown on line 0
+PHP Warning:  Module 'mbstring' already loaded in Unknown on line 0
+
+Warning: Module 'mbstring' already loaded in Unknown on line 0
+Using version ^4.2 for symfony/var-dumper
+./composer.json has been created
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 3 installs, 0 updates, 0 removals
+  - Installing symfony/polyfill-php72 (v1.10.0): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.10.0): Loading from cache
+  - Installing symfony/var-dumper (v4.2.1): Loading from cache
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/var-dumper suggests installing symfony/console (To use the ServerDumpCommand and/or the bin/var-dump-server script)
+Writing lock file
+Generating autoload files
+
+
+ça installe composer.json et composer.lock ( inmodifiabe)
+
+ensuite dans var-dumper depuis phpstorm
+
+
+
+
+
+composer require debug-pack
